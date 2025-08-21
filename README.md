@@ -1,4 +1,4 @@
-This paper can be found here: [PDF](https://git5.cs.fau.de/uw61ehod/shvit_segformer_ba/-/blob/2c6c2b004ab9b61702f9564de87c08095bf82ece/LaTeX/ChangGengDrewes_SHViT_Segformer_BA.pdf)
+This paper can be found here: [PDF](https://git5.cs.fau.de/uw61ehod/shvit_segformer_ba/-/blob/2c6c2b004ab9b61702f9564de87c08095bf82ece/LaTeX/ChangGengDrewes_SHViT_Segformer_BA.pdf). <br />
 The full source code used in this thesis is available on [GitLab](https://git5.cs.fau.de/uw61ehod/shvit_segformer_ba) of Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU Erlangen-Nürnberg)
 
 
@@ -53,6 +53,7 @@ required. While running the scripts in VSCode, the kernel occasionally crashed. 
 reinstalling the `sqlite` and `libsqlite` packages at the end[^4].
 
 [^4]: https://stackoverflow.com/a/79484466/27900239
+
 
 
 
