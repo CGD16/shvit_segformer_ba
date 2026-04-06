@@ -32,16 +32,18 @@ The installation of PyTorch is very easy and does not require additional CUDA dr
 
 
 ```
-9 conda create -n torch260 python=3.12
+09 conda create -n torch260 python=3.12
 10 conda activate torch260
-11 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-12 conda install -c conda-forge opencv matplotlib tqdm seaborn pandas plotly lightning
-13 pip install torchsummary torchviz pydicom slicerio unfoldNd vedo
-14 sudo apt-get install graphviz
-15 cd /mnt/c/Users/USERNAME/Documents/Python/shoes_segformer/Software/
-16 pip install PythonTools-3.7.0-py2.py3-none-any.whl
-17 conda install conda-forge::libsqlite --force-reinstall
-18 conda install conda-forge::sqlite --force-reinstall
+11 pip install ipykernel
+12 python -m ipykernel install --user --name torch260 --display-name "torch260"
+13 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+14 conda install -c conda-forge opencv matplotlib tqdm seaborn pandas plotly lightning
+15 pip install torchsummary torchviz pydicom slicerio unfoldNd vedo
+16 sudo apt-get install graphviz
+17 cd /mnt/c/Users/USERNAME/Documents/Python/shoes_segformer/Software/
+18 pip install PythonTools-3.7.0-py2.py3-none-any.whl
+19 conda install conda-forge::libsqlite --force-reinstall
+20 conda install conda-forge::sqlite --force-reinstall
 ```
 
 After setting up PyTorch, essential libraries like `matplotlib`, `tqdm`, `seaborn`, etc. needed
