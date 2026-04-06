@@ -34,8 +34,7 @@ The installation of PyTorch is very easy and does not require additional CUDA dr
 ```
 9 conda create -n torch260 python=3.12
 10 conda activate torch260
-11 pip3 install torch torchvision torchaudio --index-url
-https://download.pytorch.org/whl/cu126
+11 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 12 conda install -c conda-forge opencv matplotlib tqdm seaborn pandas plotly lightning
 13 pip install torchsummary torchviz pydicom slicerio unfoldNd vedo
 14 sudo apt-get install graphviz
